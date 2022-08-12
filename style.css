@@ -178,7 +178,7 @@ button a {
 .section-appointment:before {
   position: absolute;
   content: "";
-  background-image: url(img/home/appointment.jpg);
+  background-image: url(img/doctors/appointment.jpg);
   width: 50%;
   height: 100%;
   top: 0;
@@ -197,24 +197,43 @@ button a {
 .clinical-interests:before {
   position: absolute;
   content: "";
-  background-image: url(img/home/our-services.jpg);
+  /* background-image: url(img/home/our-services.jpg); */
   width: 50%;
   height: 100%;
   top: 0;
   right: 0;
   background-size: cover;
 }
+.affiliated-hospitals:before{
+  background-image: url(img/IMAGE_4.jpg);
+
+}
+.clinical-interests:before{
+  background-image: url(img/IMAGE_6.jpg);
+
+}
 .section-our-services:before,
 .accepted-insurance:before,
 .lang-spoken:before {
   position: absolute;
   content: "";
-  background-image: url(img/home/our-services.jpg);
+  /* background-image: url(img/home/our-services.jpg); */
   width: 50%;
   height: 100%;
   top: 0;
   left: 0;
   background-size: cover;
+}
+.section-our-services:before{
+  background-image: url(img/IMAGE.jpg);
+}
+.accepted-insurance:before{
+  background-image: url(img/IMAGE_2.jpg);
+
+}
+.lang-spoken:before{
+  background-image: url(img/IMAGE_3.jpg);
+
 }
 .slider-for-departments {
   position: relative;
@@ -266,16 +285,15 @@ iframe {
   width: 100%;
 }
 
-/* .play-icon{
-  background-image: url("./img/video-play-icon.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position-x: center;
-  background-position-y: center;
-  height: 100px;
-  width: 100px;
-  outline: none;
-} */
+.slider-nav-for-news-thumbnails{
+  padding: 12px;
+}
+.slider-nav-for-news-thumbnails .slick-slide.slick-current.slick-active >img{
+  border: 1px solid grey;
+  box-shadow: 2px 2px 10px grey;
+}
+
+
 @media (max-width: 1024px) {
   .section-appointment:before,
   .section-our-services:before,
